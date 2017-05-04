@@ -1,5 +1,5 @@
 /*
-	Transit by TEMPLATED
+	Interphase by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
@@ -12,11 +12,6 @@
 
 	body, input, select, textarea {
 		font-size: 12pt;
-	}
-
-	header.major h2 {
-		font-size: 2em;
-		margin-bottom: 1em;
 	}
 
 /* List */
@@ -57,13 +52,6 @@
 
 	input[type="submit"],
 	input[type="reset"],
-	input[type="button"],
-	.button {
+	input[type="button"] {
 		padding: 0;
-	}
-
-/* Banner */
-
-	#banner {
-		padding: 8em 2em 8em;
 	}

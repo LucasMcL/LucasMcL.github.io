@@ -1,9 +1,8 @@
 /*
-	Transit by TEMPLATED
+	Interphase by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
-
 (function($) {
 
 	skel.init({
@@ -29,17 +28,17 @@
 			medium: {
 				media: '(max-width: 980px)',
 				href: 'css/style-medium.css',
-				containers: '90%!'
+				containers: '90%'
 			},
 			small: {
 				media: '(max-width: 736px)',
 				href: 'css/style-small.css',
-				containers: '90%!',
+				containers: '90%',
 				grid: { gutters: ['1.25em', 0] }
 			},
 			xsmall: {
 				media: '(max-width: 480px)',
-				href: 'css/style-xsmall.css'
+				href: 'css/style-xsmall.css',
 			}
 		},
 		plugins: {
@@ -47,16 +46,8 @@
 				config: {
 					mode: 'transform'
 				},
-				navButton: {
-					breakpoints: 'medium',
-					height: '4em',
-					html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span>',
-					position: 'top-left',
-					side: 'top',
-					width: '6em'
-				},
 				navPanel: {
-					animation: 'overlayX',
+					animation: 'pushX',
 					breakpoints: 'medium',
 					clickToHide: true,
 					height: '100%',
@@ -66,6 +57,14 @@
 					position: 'top-left',
 					side: 'left',
 					width: 250
+				},
+				navButton: {
+					breakpoints: 'medium',
+					height: '4em',
+					html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span>',
+					position: 'top-left',
+					side: 'top',
+					width: '6em'
 				}
 			}
 		}
@@ -73,15 +72,7 @@
 
 	$(function() {
 
-		var	$window = $(window),
-			$body = $('body');
-
-		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
-
-			$window.on('load', function() {
-				$body.removeClass('is-loading');
-			});
+		// ...
 
 	});
 

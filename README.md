@@ -1,4 +1,1 @@
-# LucasMcL.github.io
-This is my website
-
-
+https://lucasmcl.github.io/

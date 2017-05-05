@@ -1089,3 +1089,48 @@
 					margin-left: 0;
 					padding-left: 0;
 				}
+
+/* User Added Styles */
+
+/* Banner */
+
+		/* Lucas McLaughlin */
+		#banner h2 {
+			font-size: 4em;
+			font-weight: bold;
+		}
+
+		/* Software Developer */
+		#banner p {
+			font-size: 2em;
+		}
+
+		#about-me h2 {
+			font-weight: 400;
+		}
+
+		.project-image-left {
+			max-height: 100%;
+			max-width: 66%;
+			padding-right: 2em;
+		}
+
+		.project-image-right {
+			max-height: 100%;
+			max-width: 66%;
+			padding-left: 2em;
+		}
+
+		.project-title {
+			border-bottom: none !important;
+		}
+
+		#two section {
+			height: 425px;
+			margin-bottom: 5em;
+		}
+
+		.contact-icons {
+			display: flex;
+			justify-content: space-around;
+		}
